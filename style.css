@@ -1,0 +1,105 @@
+body {
+    font-family: 'Laila', serif; 
+}
+
+.background {
+    background-image:url('https://1happyblog.files.wordpress.com/2014/08/757px-van_gogh_-_starry_night_-_google_art_project.jpg');
+}
+
+header {
+    color: gold; 
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000,
+    -2px 0px 0 #000, 2px 2px 4px #000;
+    text-align: center; 
+    height: 80%;
+    border-radius: 5px;
+    font-size: 30px; 
+}
+
+.form-row {
+    font-size: 30px; 
+    color: gold; 
+    text-shadow: 1px 1px 0 #000968, -1px -1px #000968, 1px -1px 0 #000968,
+    -1px 1px 0 yellow, 0px 1px 0 #000968, 1px 0px 0 #000968, 0px -1px 0 #000968,
+    -1px 0px 0 #000968, 1px 1px 2px #000968;
+}
+
+#form {
+    border: 2px; 
+}
+
+div input {
+    height: 20px; 
+    width: 50%;  
+}
+
+.container { 
+    display: inline-block; 
+    position: relative; 
+    max-height: 350px; 
+    max-width: 350px;
+    min-width: 220px; 
+    min-height: 220px;  
+    margin: 30px; 
+    overflow: hidden; 
+}
+
+.images{
+    position: absolute; 
+    display: inline-block; 
+    width: 375px; 
+    height: 375px;  
+}
+
+.container span {
+    position: absolute; 
+    text-align: center; 
+    width: 100%; 
+    color: white; 
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000,
+    -2px 0px 0 #000, 2px 2px 4px #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 40px; 
+    z-index: 2; 
+}
+
+.top-text {
+    top: 0; 
+}
+
+.bot-text {
+    bottom: 0; 
+}
+
+#submit{
+    width: 200px; 
+    height: 50px; 
+    letter-spacing: 1px; 
+    background-color: goldenrod; 
+    border-radius: 500px;  
+}
+
+#submit:hover {
+    background-color: lightblue; 
+}
+
+#deck {
+    margin-bottom: 30px; 
+}
+
+.delete {
+    display: block; 
+    position: relative;
+    z-index: 3; 
+    height: 350px; 
+    width: 350px; 
+    opacity: 0.0; 
+}
+
+.delete:hover {
+    cursor: pointer; 
+    opacity: 0.5; 
+}

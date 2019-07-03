@@ -1,6 +1,7 @@
 #meme-dreamer
 
-created by Daniel Im --- RITHM PRE_CURRICULUM
+a web application that lets you create custom memes!
 
-03.05.19 : first commit 
+
+
 
